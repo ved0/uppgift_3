@@ -1,8 +1,8 @@
 
-var button = document.getElementById("first");
+let button = document.getElementById("first");
 let counter = 0;
 button.onclick = function () {
-    var header = document.getElementById("head");
+    let header = document.getElementById("head");
     if (counter % 2 == 0) {
         header.textContent = "Goodbye World";
         counter = 1;
