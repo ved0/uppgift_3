@@ -1,5 +1,5 @@
 
-let button = document.getElementById("first");
+const button = document.getElementById("first");
 let counter = 0;
 button.onclick = function () {
     let header = document.getElementById("head");
